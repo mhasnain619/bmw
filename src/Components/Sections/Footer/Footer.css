@@ -50,11 +50,17 @@ footer ul li {
     margin-bottom: 0.5rem;
     font-size: 17px;
     color: rgb(121, 122, 122);
+    cursor: pointer;
 }
 
 footer ul li:hover {
 
     color: rgb(235, 240, 240);
+}
+
+.allRightReserved {
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 @media (max-width: 768px) {
@@ -86,5 +92,10 @@ footer ul li:hover {
 
     .headpo h5 {
         font-size: small;
+    }
+
+    .allRightReserved {
+        margin-left: 30px;
+        margin-top: 20px;
     }
 }

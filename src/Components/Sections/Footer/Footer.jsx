@@ -74,6 +74,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div >
+            <div className='allRightReserved'>
+                <h6>© BMW AG 2025</h6>
+            </div>
         </footer >
     );
 };
