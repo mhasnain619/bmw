@@ -11,6 +11,7 @@ import Section10 from '../Sections/Section10/Section10'
 import Section11 from '../Sections/Section11/Section11'
 import Section12 from '../Sections/Section12/Section12'
 import Slider from '../Slider/Slider'
+import Footer from '../Sections/Footer/Footer'
 const Home = () => {
     return (
         <>
@@ -27,6 +28,7 @@ const Home = () => {
             <Section10 />
             <Section11 />
             <Section12 />
+            <Footer />
         </>
     )
 }
