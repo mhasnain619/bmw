@@ -49,3 +49,18 @@
 .Year25:hover img {
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    .x5 {
+        border-right: none;
+    }
+
+    .x6 {
+        border-left: none;
+        border-right: none;
+    }
+
+    .x7 {
+        border-left: none;
+    }
+}

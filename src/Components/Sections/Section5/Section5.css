@@ -99,3 +99,18 @@
     font-size: 20px;
     font-weight: 700;
 }
+
+@media (max-width: 768px) {
+    .TheJoy {
+        border-right: none;
+    }
+
+    .secTowRow {
+        border-left: none;
+    }
+
+    .skyTop,
+    .bmwWallpaper {
+        border-top: 2px solid white;
+    }
+}

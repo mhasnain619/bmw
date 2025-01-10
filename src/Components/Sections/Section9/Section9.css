@@ -109,3 +109,29 @@
 .overlay-text-left7 p {
     color: aliceblue;
 }
+
+@media (max-width: 768px) {
+    .section7Row {
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+
+    .bmwExplained {
+        border-right: none;
+        border-top: 2px solid white;
+        border-bottom: 1px solid white;
+    }
+
+    .germanProto {
+        border-left: none;
+    }
+
+    .germanProto {
+        border-right: none;
+    }
+
+    .artspedRightBorder {
+        border-top: 1px solid white;
+        border-right: none;
+    }
+}
