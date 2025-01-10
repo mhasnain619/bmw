@@ -25,7 +25,6 @@ const Signup = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(userData);
         localStorage.setItem("userData", JSON.stringify(userData));
         alert("User data saved to localStorage:", userData);
         navigate("/login")
