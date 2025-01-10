@@ -23,6 +23,8 @@ const Signup = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        // Retrieve stored user data
         const storedUserData = JSON.parse(localStorage.getItem('userData'));
         if (!storedUserData) {
             alert('No user data found. Please sign up first.');
@@ -30,9 +32,16 @@ const Signup = () => {
         }
 
         const { email, password } = userCredentials;
+
+        // Check if credentials match
         if (email === storedUserData.email && password === storedUserData.password) {
             alert('Login successful!');
-            navigate('/')
+
+            // Set the authenticated status in localStorage
+            localStorage.setItem('isAuthenticated', 'true');
+
+            // Redirect to home
+            navigate('/');
         } else {
             alert('Invalid email or password');
         }
