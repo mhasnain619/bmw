@@ -26,7 +26,7 @@ const Signup = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         localStorage.setItem("userData", JSON.stringify(userData));
-        alert("User data saved to localStorage:", userData);
+        alert("Account Created Seccessfully.", userData);
         navigate("/login")
     };
     return (

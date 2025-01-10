@@ -31,7 +31,7 @@ const Signup = () => {
         }
         const { email, password } = userCredentials;
         if (email === storedUserData.email && password === storedUserData.password) {
-            alert('Login successful!');
+            alert('LogedIn successful!');
             localStorage.setItem('isAuthenticated', 'true');
             navigate('/');
         } else {
