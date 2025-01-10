@@ -12,9 +12,7 @@ const NewSlider = () => {
             setCurrentState((prevState) =>
                 prevState === imageSlide.length - 1 ? 0 : prevState + 1
             );
-        }, 3000); // Change image every 3 seconds
-
-        // Cleanup interval on component unmount
+        }, 3000)
         return () => clearInterval(interval);
     }, []);
 
